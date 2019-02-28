@@ -34,7 +34,7 @@ For the information extraction task, each image in the dataset is annotated with
    ……………<br />
 }</div>
 
-Click [Baidu Netdisk ](http://rrc.cvc.uab.es/?ch=13&com=downloads) or [Google Drive](http://rrc.cvc.uab.es/?ch=13&com=downloads)to download dataset.
+Click [Baidu Netdisk ](https://pan.baidu.com/s/1a57eKCSq8SV8Njz8-jO4Ww#list/path=%2F) or [Google Drive](https://drive.google.com/open?id=1ShItNWXyiY1tFDM5W02bceHuJjyeeJl2)to download dataset.
 ## Timeline
 **Registration open**: February 10 – March 31, 2019<br />
 **Training/validation dataset available**: March 1, 2019<br />
