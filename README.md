@@ -32,7 +32,8 @@ For the information extraction task, each image in the dataset is annotated with
 "Total": "$4.95",<br />
 "date": "14/03/2015",<br />
    ……………<br />
-}</div>
+}</div><br />
+
 Click [Baidu Netdisk ](http://rrc.cvc.uab.es/?ch=13&com=downloads) or [Google Drive](http://rrc.cvc.uab.es/?ch=13&com=downloads)to download dataset.
 ## Timeline
 **Registration open**: February 10 – March 31, 2019<br />
