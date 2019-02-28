@@ -4,7 +4,7 @@ Scanned receipts OCR is a process of recognizing text from scanned structured an
 With the trends of OCR systems going to be more intelligent and document analytics, SROIE holds unprecedented potentials and opportunities, which attracted huge interests from big companies, such as Google, Baidu and Alibaba. Surprisingly, there are little research works published in the topic of SROIE. While robust reading, document layout analysis and named entity recognition are relevant to the SROIE, none of the existing research and past ICDAR competitions fully address the problems faced by SROIE [1,2,3].<br />
 In recognition of the above challenges, importance and huge commercial potentials of SROIE, we propose the ICDAR 2019 competition on SROIE, aiming to draw attention from the community and promote research and development efforts on SROIE. The proposed competition could be of interests to the ICDAR community from several aspects:
 * To support the competition, a large-scale and well-annotated invoice datasets are provided, which is crucial to the success of deep learning based OCR systems. While many datasets have been collected for OCR research and competitions, to the best of our knowledge, there is no publicly available receipt dataset. Compared to the existing ICDAR and other OCR datasets, the new dataset has some special features and challenges, e.g., some receipts having poor paper quality, poor ink and printing quality; low resolution scanner and scanning distortion; folded invoices; too many unneeded interfering texts in complex layouts; long texts and small font sizes. To address the potential privacy issue, some sensitive fields (such as name, address and contact number etc) of the receipts are blurred. The datasets can be an excellent complement to the existing ICDAR and other OCR datasets.
-* Two specific tasks are proposed: receipt OCR and key information extraction. Compared to the other widely studied OCR tasks for ICDAR, receipt OCR (including text detection and recognition) is a much less studied problem and has some unique challenges. On the other hand, research works on extraction of key information from receipts have been rarely published. The traditional approaches used in the named entity recognition research are not directly applicable to the second task of SROIE.
+* Two specific tasks are proposed: [receipt OCR](http://rrc.cvc.uab.es/?ch=13&com=tasks) and [key information extraction](http://rrc.cvc.uab.es/?ch=13&com=tasks). Compared to the other widely studied OCR tasks for ICDAR, receipt OCR (including text detection and recognition) is a much less studied problem and has some unique challenges. On the other hand, research works on extraction of key information from receipts have been rarely published. The traditional approaches used in the named entity recognition research are not directly applicable to the second task of SROIE.
 * Comprehensive evaluation method is developed for the two competition tasks. In combination with the new receipt datasets, it enables wide development, evaluation and enhancement of OCR and information extraction technologies for SROIE. It will help attract interests on SROIE, inspire new insights, ideas and approaches.
 ## Dataset and Annotations
 The dataset will have 1000 whole scanned receipt images. Each receipt image contains around about four key text fields, such as goods name, unit price and total cost, etc. The text annotated in the dataset mainly consists of digits and English characters. 
@@ -14,6 +14,15 @@ Click [dataSet](http://rrc.cvc.uab.es/?ch=13&com=downloads) to download.
 **Training/validation dataset available**: March 1, 2019<br />
 **Submission open**: April 15, 2019<br />
 **Deadline for Competition participants**: April 30, 2019<br />
+## Organizers
+<font color="#0000dd">**SROIE Challenge Organization Team**</font><br />
+* **Dr Zheng Huang** (huang-zheng@sjtu.edu.cn), Shanghai Jiaotong University, China<br />
+* **Dr Kai Chen** (kaichen@onlyou.com), Onlyou, China<br />
+* **Dr Jianhua He** (j.he7@aston.ac.uk), Aston University, UK<br />
+* **Dr Xiang Bai** (xbai@hust.edu.cn), Huazhong University of Science and Technology, China<br />
+* **Dr Dimosthenis Karatzas** (dimos@cvc.uab.es), Universitat Autónoma de Barcelona, Spain<br />
+* **Dr Shijian Lu** (Shijian.Lu@ntu.edu.sg), Nanyang Technological University, Singapore<br />
+* **Dr C. V. Jawahar** (jawahar@iiit.ac.in), IIIT Hyderabad, India<br />
 ## References
 [1]. D. Karatzas, F. Shafait, S. Uchida, M. Iwamura, L. Gomez, S. Robles, J. Mas, D. Fernandez, J. Almazan, L.P. de las Heras: ICDAR 2013 Robust Reading Competition. ICDAR, 2013.<br />
 [2]. D. Karatzas, L. Gomez-Bigorda, A. Nicolaou, D. Ghosh , A. Bagdanov, M. Iwamura, J. Matas, L. Neumann, VR. Chandrasekhar, S. Lu, F. Shafait, S. Uchida, E. Valveny: ICDAR 2015 robust reading competition. ICDAR, 2015.<br />
