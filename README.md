@@ -18,8 +18,21 @@ The aim of this task is to extract texts of a number of key fields from given re
 #### Evaluation Protocol
 For each test receipt image, the extracted text is compared to the ground truth. An extract text is marked as correct if both submitted content and category of the extracted text matches the groundtruth; Otherwise, marked as incorrect. The mAP is computed over all the extracted texts of all the test receipt images. F1 scored is computed based on mAP and recall. F1 score is used for ranking.
 ## Dataset and Download
-The dataset will have 1000 whole scanned receipt images. Each receipt image contains around about four key text fields, such as goods name, unit price and total cost, etc. The text annotated in the dataset mainly consists of digits and English characters. 
-Click [here](http://rrc.cvc.uab.es/?ch=13&com=downloads) to download dataset.
+The dataset will have 1000 whole scanned receipt images. Each receipt image contains around about four key text fields, such as goods name, unit price and total cost, etc. The text annotated in the dataset mainly consists of digits and English characters. An example scanned receipt is shown below:<br />
+![image](https://github.com/SYZNKJ2019/SORIE2019/blob/master/sample21.png)
+The dataset is split into a training/validation set (“trainval”) and a test set (“test”). The “trainval” set consists of 600 receipt images which will be made available to the participants along with their annotations. The “test” set consists of 400 images, which will be made available a few weeks before the submission deadline.<br />
+For receipt OCR task, each image in the dataset is annotated with text bounding boxes (bbox) and the transcript of each text bbox. Locations are annotated as rectangles with four vertices, which are in clockwise order starting from the top. Annotations for an image are stored in a text file with the same file name. The annotation format is similar to that of ICDAR2015 dataset, which is shown below:<br />
+x1_1, y1_1,x2_1,y2_1,x3_1,y3_1,x4_1,y4_1, transcript_1<br />
+x1_2,y1_2,x2_2,y2_2,x3_2,y3_2,x4_2,y4_2, transcript_2<br />
+x1_3,y1_3,x2_3,y2_3,x3_3,y3_3,x4_3,y4_3, transcript_3<br />
+…<br />
+For the information extraction task, each image in the dataset is annotated with a json file with format shown below:<br />
+{"Vt Pep Mocha": "4.95",<br />
+"Total": "$4.95",<br />
+"date": "14/03/2015",<br />
+   ……………<br />
+}<br />
+Click [Baidu Netdisk ](http://rrc.cvc.uab.es/?ch=13&com=downloads) or [Google Drive](http://rrc.cvc.uab.es/?ch=13&com=downloads)to download dataset.
 ## Timeline
 **Registration open**: February 10 – March 31, 2019<br />
 **Training/validation dataset available**: March 1, 2019<br />
