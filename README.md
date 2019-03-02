@@ -28,10 +28,10 @@ x1_2,y1_2,x2_2,y2_2,x3_2,y3_2,x4_2,y4_2, transcript_2<br />
 x1_3,y1_3,x2_3,y2_3,x3_3,y3_3,x4_3,y4_3, transcript_3<br />
 …</div>
 For the information extraction task, each image in the dataset is annotated with a json file with format shown below:<br />
-<div align=center>{"Vt Pep Mocha": "4.95",<br />
-"Total": "$4.95",<br />
+<div align=center>{"company": "STARBUCKS STORE #10208",<br />
 "date": "14/03/2015",<br />
-   ……………<br />
+"address": "11302 EUCLID AVENUE, CLEVELAND, OH (216) 229-0749",<br />
+"total": "4.95", <br />
 }</div>
 
 Click [Baidu Netdisk ](https://pan.baidu.com/s/1a57eKCSq8SV8Njz8-jO4Ww#list/path=%2F) or [Google Drive](https://drive.google.com/open?id=1ShItNWXyiY1tFDM5W02bceHuJjyeeJl2) to download dataset.
